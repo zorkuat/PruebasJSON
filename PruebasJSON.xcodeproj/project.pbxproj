@@ -7,25 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		092839E7201274AB0031AAE9 /* BaseDeDatos.m in Sources */ = {isa = PBXBuildFile; fileRef = 092839E6201274AB0031AAE9 /* BaseDeDatos.m */; };
 		09FDEDA620110C5500FBC521 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FDEDA520110C5500FBC521 /* AppDelegate.m */; };
-		09FDEDA920110C5500FBC521 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FDEDA820110C5500FBC521 /* ViewController.m */; };
 		09FDEDAC20110C5500FBC521 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09FDEDAA20110C5500FBC521 /* Main.storyboard */; };
 		09FDEDAE20110C5500FBC521 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09FDEDAD20110C5500FBC521 /* Assets.xcassets */; };
 		09FDEDB120110C5500FBC521 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09FDEDAF20110C5500FBC521 /* LaunchScreen.storyboard */; };
 		09FDEDB420110C5500FBC521 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FDEDB320110C5500FBC521 /* main.m */; };
+		09FDEDBD20111E5F00FBC521 /* datos.json in Resources */ = {isa = PBXBuildFile; fileRef = 09FDEDBC20111E5F00FBC521 /* datos.json */; };
+		09FDEDC02011204F00FBC521 /* UsuariosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FDEDBF2011204F00FBC521 /* UsuariosTableViewController.m */; };
+		09FDEDC32011206500FBC521 /* FacturasTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FDEDC22011206500FBC521 /* FacturasTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		092839E5201274AB0031AAE9 /* BaseDeDatos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseDeDatos.h; sourceTree = "<group>"; };
+		092839E6201274AB0031AAE9 /* BaseDeDatos.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseDeDatos.m; sourceTree = "<group>"; };
 		09FDEDA120110C5500FBC521 /* PruebasJSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PruebasJSON.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09FDEDA420110C5500FBC521 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		09FDEDA520110C5500FBC521 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		09FDEDA720110C5500FBC521 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		09FDEDA820110C5500FBC521 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		09FDEDAB20110C5500FBC521 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		09FDEDAD20110C5500FBC521 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09FDEDB020110C5500FBC521 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09FDEDB220110C5500FBC521 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09FDEDB320110C5500FBC521 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09FDEDBC20111E5F00FBC521 /* datos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = datos.json; path = Assets.xcassets/datos.json; sourceTree = "<group>"; };
+		09FDEDBE2011204F00FBC521 /* UsuariosTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UsuariosTableViewController.h; sourceTree = "<group>"; };
+		09FDEDBF2011204F00FBC521 /* UsuariosTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UsuariosTableViewController.m; sourceTree = "<group>"; };
+		09FDEDC12011206500FBC521 /* FacturasTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FacturasTableViewController.h; sourceTree = "<group>"; };
+		09FDEDC22011206500FBC521 /* FacturasTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacturasTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +66,20 @@
 		09FDEDA320110C5500FBC521 /* PruebasJSON */ = {
 			isa = PBXGroup;
 			children = (
+				09FDEDBC20111E5F00FBC521 /* datos.json */,
 				09FDEDA420110C5500FBC521 /* AppDelegate.h */,
 				09FDEDA520110C5500FBC521 /* AppDelegate.m */,
-				09FDEDA720110C5500FBC521 /* ViewController.h */,
-				09FDEDA820110C5500FBC521 /* ViewController.m */,
 				09FDEDAA20110C5500FBC521 /* Main.storyboard */,
 				09FDEDAD20110C5500FBC521 /* Assets.xcassets */,
 				09FDEDAF20110C5500FBC521 /* LaunchScreen.storyboard */,
 				09FDEDB220110C5500FBC521 /* Info.plist */,
 				09FDEDB320110C5500FBC521 /* main.m */,
+				09FDEDBE2011204F00FBC521 /* UsuariosTableViewController.h */,
+				09FDEDBF2011204F00FBC521 /* UsuariosTableViewController.m */,
+				09FDEDC12011206500FBC521 /* FacturasTableViewController.h */,
+				09FDEDC22011206500FBC521 /* FacturasTableViewController.m */,
+				092839E5201274AB0031AAE9 /* BaseDeDatos.h */,
+				092839E6201274AB0031AAE9 /* BaseDeDatos.m */,
 			);
 			path = PruebasJSON;
 			sourceTree = "<group>";
@@ -131,6 +144,7 @@
 			files = (
 				09FDEDB120110C5500FBC521 /* LaunchScreen.storyboard in Resources */,
 				09FDEDAE20110C5500FBC521 /* Assets.xcassets in Resources */,
+				09FDEDBD20111E5F00FBC521 /* datos.json in Resources */,
 				09FDEDAC20110C5500FBC521 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,7 +156,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09FDEDA920110C5500FBC521 /* ViewController.m in Sources */,
+				092839E7201274AB0031AAE9 /* BaseDeDatos.m in Sources */,
+				09FDEDC32011206500FBC521 /* FacturasTableViewController.m in Sources */,
+				09FDEDC02011204F00FBC521 /* UsuariosTableViewController.m in Sources */,
 				09FDEDB420110C5500FBC521 /* main.m in Sources */,
 				09FDEDA620110C5500FBC521 /* AppDelegate.m in Sources */,
 			);
