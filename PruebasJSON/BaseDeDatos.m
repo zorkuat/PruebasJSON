@@ -59,12 +59,12 @@
 
 - (NSMutableArray *)usuarios
 {
-    return self.usuarios;
+    return _usuarios;
 }
 
 - (NSURL *)rutaFichero
 {
-    return self.rutaFichero;
+    return _rutaFichero;
 }
 
 - (void)guardarCambios
